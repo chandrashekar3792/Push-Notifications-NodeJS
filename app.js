@@ -6,9 +6,9 @@ var mongoose = require('mongoose');
 var bodyParser     = require('body-parser');
 var io = require("socket.io");  // socket io server
 var gcm = require('node-gcm'); // Node GCM
-var config = require('./config/dev.json');
+var config = require('./config/development.json');
 var mongooseTypes = require('mongoose').Types;
-var db = require('./config/dev.json').db;
+var db = require('./config/development.json').db;
 var Notification = require('./models/Notification');
 var MobileNotificationToken = require('./models/MobileNotificationToken');
 
