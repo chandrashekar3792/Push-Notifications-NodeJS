@@ -1,0 +1,22 @@
+{
+    "name": "gcm",
+    "description": "Push notifications system",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "chandru",
+    "dependencies": {
+        "cron": "latest",
+        "mongoose": "latest",
+        "mongoose-timestamp": "latest",
+        "async": "latest",
+        "request": "latest",
+        "winston": "latest",
+        "lodash": "latest",
+        "moment": "latest",
+        "redis": "2.0.0",
+        "require-dir": "latest",
+        "email-templates": "latest",
+        "nodemailer": "latest",
+        "handlebars": "latest"
+    }
+}
