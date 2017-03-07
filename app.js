@@ -9,8 +9,8 @@ var gcm = require('node-gcm'); // Node GCM
 var config = require('./config/development.json');
 var mongooseTypes = require('mongoose').Types;
 var db = require('./config/development.json').db;
-var Notification = require('./models/Notification');
-var MobileNotificationToken = require('./models/MobileNotificationToken');
+var Notification = require('./models/notification');
+var MobileNotificationToken = require('./models/mobileNotificationToken');
 
 app.use(bodyParser.json()); // parse application/json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
